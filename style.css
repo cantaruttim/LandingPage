@@ -3,3 +3,12 @@
     padding: 0;
     margin: 0;
 }
+
+.cabecalho{
+    padding: 20px;
+}
+
+.menu{
+    padding: 20px;
+    display: inline-block;
+}
