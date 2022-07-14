@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+header{
+  padding: 20px;
+}
+
 .cabecalho{
     padding: 20px;
     position: relative;
@@ -98,11 +102,30 @@
   .company:hover .dd_company_content {display: block;}
 
 
-.body{
-    width: 1000px;
-    height: 800px;
+.main-content{
+  padding: 20px;
+  width: 1000px;
+  height: 450px;
+  margin: auto;
+  align-items: center;
+  background-color: #FAFAFA;
+  display:block;
+}
+#content{
+  width: 500px;
+  height: auto;
 }
 
-.body>img-body{
-    
+p{
+  font-size: 25px;
+}
+
+
+h1{
+  font-size: 90px;
+}
+
+#img{
+  width: 500px;
+  height: auto;
 }
