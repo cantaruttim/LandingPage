@@ -59,6 +59,24 @@ header{
     border: none;
 }
 
+#learn{
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 16px;
+  margin: 20px 10px 10px 0px;
+  width: fit-content;
+  border: 1px solid black;
+}
+
+.learn-more{
+  background-color: black;
+  color: white;
+  width: 110px;
+  height: 10px;
+
+}
+
 /* escondendo o conteúdo do menu */
   .dd_features_content {
     display: none;
@@ -118,11 +136,13 @@ header{
 
 p{
   font-size: 25px;
+  padding: 20px;
+  margin: 10px;
 }
 
 
 h1{
-  font-size: 90px;
+  font-size: 70px;
 }
 
 #img{
