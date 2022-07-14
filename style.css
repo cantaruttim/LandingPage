@@ -1,5 +1,5 @@
 *{
-    background-color: white;
+    background-color:#FAFAFA;
     padding: 0;
     margin: 0;
 }
@@ -12,3 +12,13 @@
     padding: 20px;
     display: inline-block;
 }
+
+/* colocando stilo no botão features */
+.dd_features {
+    background-color: #FAFAFA;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
