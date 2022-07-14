@@ -39,6 +39,22 @@
     border: none;
 }
 
+.btcareers{
+    background-color: #FAFAFA;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.btabout{
+    background-color: #FAFAFA;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
 /* escondendo o conteúdo do menu */
   .dd_features_content {
     display: none;
@@ -80,4 +96,9 @@
   /* mostrando o conteúdo menu dropdown */
   .feature:hover .dd_features_content {display: block;}
   .company:hover .dd_company_content {display: block;}
+
+.btrigt{
+    display: inline-block;
+    text-align: right;
+}
 
