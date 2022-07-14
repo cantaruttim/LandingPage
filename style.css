@@ -97,8 +97,12 @@
   .feature:hover .dd_features_content {display: block;}
   .company:hover .dd_company_content {display: block;}
 
-.btrigt{
-    display: inline-block;
-    text-align: right;
+
+.body{
+    width: 1000px;
+    height: 800px;
 }
 
+.body>img-body{
+    
+}
