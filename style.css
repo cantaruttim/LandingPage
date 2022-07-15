@@ -131,6 +131,10 @@ header{
   height: 100px;
 }
 
+.btnregister:active{
+ font-weight: bolder;
+}
+
 /* botão learn more */
 
 .btnlearn-more{
