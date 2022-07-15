@@ -199,6 +199,13 @@ header{
   /* mostrando o conteúdo menu dropdown */
   .feature:hover .dd_features_content {display: block;}
   .company:hover .dd_company_content {display: block;}
+  .company:active {
+    font-weight: bolder;
+  }
+
+  .features:active{
+    font-weight: bolder;
+  }
 
 
 .main-content{
