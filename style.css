@@ -209,7 +209,7 @@ header{
 p{
   font-size: 20px;
   padding: 0;
-  margin: 40px 0px 0px 0px;
+  margin: 60px 0px 65px 0px;
   text-align: justify;
   width: 450px;
 }
@@ -220,6 +220,7 @@ p{
 
 
 h1{
+  margin: 5px 0px 20px 0px;
   font-size: 65px;
 }
 
