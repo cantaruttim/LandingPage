@@ -165,7 +165,5 @@ h1{
 .img_main{
   display: inline-flexbox;
   text-align: right;
-  margin-top: -500px;
-  width: auto;
-  height: auto;
+  height: 50%;
 }
