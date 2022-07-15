@@ -2,6 +2,7 @@
 
 :root{
   --corPrincipal: #FAFAFA;
+  --fontEpilogue: 'Epilogue', sans-serif;
 }
 
 *{
@@ -61,7 +62,7 @@ header{
 .features {
     background-color: var(--corPrincipal);
     color: black;
-    font-family: Epilogue;
+    font-family: var(--fontEpilogue);
     padding: 5px;
     font-size: 16px;
     border: none;
@@ -71,7 +72,7 @@ header{
 .comp {
     background-color: var(--corPrincipal);
     color: black;
-    font-family: Epilogue;
+    font-family: var(--fontEpilogue);
     padding: 5px;
     font-size: 16px;
     border: none;
@@ -87,7 +88,7 @@ header{
 .btncareer{
   text-decoration: none;
   color: black;
-  font-family: Epilogue;
+  font-family: var(--fontEpilogue);
   background-color: var(--corPrincipal);
   font-size: 16px;
   padding: 10px;
@@ -105,7 +106,7 @@ header{
   text-decoration: none;
   color: black;
   background-color: var(--corPrincipal);
-  font-family: Epilogue;
+  font-family: var(--fontEpilogue);
   font-size: 16px;
   padding: 10px;
   width: 250px;
@@ -127,7 +128,7 @@ header{
   color: black;
   background-color: var(--corPrincipal);
   font-size: 16px;
-  font-family: Epilogue ;
+  font-family: var(--fontEpilogue) ;
   width: 250px;
   height: 100px;
 }
@@ -148,7 +149,7 @@ header{
   border: 1px solid black;
   color: black;
   background-color: var(--corPrincipal);
-  font-family: Epilogue;
+  font-family: var(--fontEpilogue);
   border-radius: 15px;
   padding: 10px;
   width: 250px;
@@ -264,7 +265,7 @@ div>p{
   margin: 50px 0px;
   font-size: 18px;
   color: #AEAEAE;
-  font-family: Epilogue;
+  font-family: var(--fontEpilogue);
 }
 
 .content{
