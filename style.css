@@ -12,12 +12,19 @@ header{
   width: 100%;
 }
 
+#menu{
+  position: absolute;
+  top: 10px;
+  left: 120px;
+}
+
 #right{
   padding: 10px;
   height: 50px;
   position: absolute;
   top: 10px;
-  left: 1100px;
+  left: 1000px;
+
 }
 
 
