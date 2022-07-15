@@ -75,6 +75,15 @@ header{
   display: inline-block;
 }
 
+.btnlogin{
+  text-decoration: none;
+  color: black;
+  background-color: #FAFAFA;
+  padding: 10px;
+  width: 250px;
+  height: 100px;
+}
+
 /* botão register */ 
 
 #register{
