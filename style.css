@@ -5,12 +5,12 @@
 }
 
 header{
-  padding: 10px;
+  padding: 20px;
   height: 50px;
 }
 
 .cabecalho{
-    padding: 20px;
+    padding: 25px;
     position: relative;
     display: inline-block;
 }
@@ -89,7 +89,7 @@ header{
   background-color: black;
   color: white;
   width: 110px;
-  height: 10px;
+  height: 20px;
 
 }
 
@@ -138,13 +138,24 @@ header{
 
 .main-content{
   padding: 45px;
-  width: 1100px;
+  width: 480px;
   height: 500px;
-  margin: auto;
+  margin-left: 150px;
   align-items: center;
   background-color: #FAFAFA;
   display:block;
 }
+
+
+.img-main{
+  display: block;
+  align-items: right;
+  position: absolute;
+  top: 150px;
+  left: 750px;
+
+}
+
 #content{
   width: 500px;
   height: auto;
@@ -153,8 +164,13 @@ header{
 p{
   font-size: 20px;
   padding: 0;
-  margin: 40px 20px 40px 0px;
+  margin: 40px 0px 40px 0px;
   text-align: justify;
+  width: 450px;
+}
+
+.content{
+  position: relative;
 }
 
 
@@ -162,8 +178,6 @@ h1{
   font-size: 65px;
 }
 
-.img_main{
-  display: inline-flexbox;
-  text-align: right;
-  height: 50%;
+.brand{
+  align-items: baseline;
 }
