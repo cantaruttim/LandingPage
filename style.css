@@ -20,11 +20,12 @@ header{
 
 #right{
   padding: 10px;
+  width: fit-content; 
   height: 50px;
+  padding: 16px;
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 1000px;
-
 }
 
 
@@ -58,7 +59,7 @@ header{
     cursor: pointer;
   }
 
-.company {
+.comp {
     background-color: #FAFAFA;
     color: black;
     font-family: Epilogue;
@@ -119,7 +120,6 @@ header{
   background-color: #FAFAFA;
   font-size: 16px;
   font-family: Epilogue ;
-  padding: 10px;
   width: 250px;
   height: 100px;
 }
@@ -216,7 +216,7 @@ header{
   .feature:hover .dd_features_content {display: block;}
   .company:hover .dd_company_content {display: block;}
   
-  .company:active {
+  .comp:active {
     font-weight: bolder;
   }
 
