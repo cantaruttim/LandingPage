@@ -27,13 +27,13 @@ header{
 /* menu & navegação */
 
 .feature{
-    padding: 10px;
+    padding: 5px;
     margin: auto;
     display: inline-block;
 }
 
 .company{
-    padding: 10px;
+    padding: 5px;
     display: inline-block;
 }
 
@@ -41,7 +41,7 @@ header{
 .features {
     background-color: #FAFAFA;
     color: black;
-    padding: 10px;
+    padding: 5px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -50,99 +50,37 @@ header{
 .company {
     background-color: #FAFAFA;
     color: black;
-    padding: 10px;
+    padding: 5px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
 
 /* botão carreira */
-.career{
-  display: inline-block;
-  padding: 10px;
-}
 
 #career{
-  background-color: #FAFAFA;
-  color: black;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-
+  display: inline-block;
 }
 
 /*botão about */ 
 
-.about{
-  display: inline-block;
-  padding: 10px;
-}
-
 #about{
-  background-color: #FAFAFA;
-  color: black;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+  display: inline-block;
 }
 
 /* botão login */
 
-.login{
-  display: inline-block;
-  padding: 10px;
-}
-
 #login{
-  background-color: #FAFAFA;
-  color: black;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  align-items: flex-end;
-  text-align: right;
-  cursor: pointer;
+  display: inline-block;
 }
 
 /* botão register */ 
 
-.register{
-  display: inline-block;
-  padding: 10px;
-}
-
 #register{
-  background-color: #FAFAFA;
-  color: black;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid black;
-  border-radius: 10px;
-  align-items: flex-end;
-  text-align: right;
-  text-decoration: none;
+  display: inline-block;
 }
 
-/*
-
-#learn{
-  background-color: black;
-  border-radius: 10px;
-  padding: 15px;
-  font-size: 16px;
-  margin: 55px 10px 55px 0px;
-  width: fit-content;
-  border: 1px solid black;
-}
-
-#learn:hover{
-  background-color: #FAFAFA;
-  color: black;
-}
-
-*/
-
+/* botão learn more */
 
 .btnlearn-more{
   text-decoration: none;
