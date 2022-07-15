@@ -163,7 +163,9 @@ h1{
 }
 
 .img_main{
-  width: 15%;
-  height: 30%;
-  display: inline-block;
+  display: inline-flexbox;
+  text-align: right;
+  margin-top: -500px;
+  width: auto;
+  height: auto;
 }
