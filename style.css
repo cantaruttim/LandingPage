@@ -137,7 +137,7 @@ header{
 
 
 .main-content{
-  padding: 45px;
+  padding: 45px 0px 0px 45px;
   width: 480px;
   height: 500px;
   margin-left: 150px;
@@ -164,7 +164,7 @@ header{
 p{
   font-size: 20px;
   padding: 0;
-  margin: 40px 0px 40px 0px;
+  margin: 40px 0px 0px 0px;
   text-align: justify;
   width: 450px;
 }
