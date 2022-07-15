@@ -162,9 +162,9 @@ h1{
   font-size: 65px;
 }
 
-#img{
-  width: 25%;
-  height: auto;
+#img_main{
+  width: 250px;
+  display: inline-block;
 }
 
 .brand{
