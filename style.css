@@ -151,7 +151,7 @@ header{
   display: block;
   align-items: right;
   position: absolute;
-  top: 150px;
+  top: 60px;
   left: 750px;
 
 }
@@ -178,6 +178,29 @@ h1{
   font-size: 65px;
 }
 
+/* marcas */
 .brand{
   align-items: baseline;
+  padding: 40px 0px 0px 20px;
+  display: inline;
+}
+
+#b1{
+  padding: 10px;
+  display: inline-block;
+}
+
+#b2{
+  padding: 10px;
+  display: inline-block;
+}
+
+#b3{
+  padding: 10px;
+  display: inline-block;
+}
+
+#b4{
+  padding: 10px;
+  display: inline-block;
 }
