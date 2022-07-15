@@ -5,9 +5,18 @@
 }
 
 header{
-  padding: 20px;
+  padding: 5px 0px 0px 20px;
   height: 50px;
 }
+
+#right{
+  padding: 5px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 1100px;
+}
+
 
 .cabecalho{
     padding: 25px;
@@ -73,12 +82,6 @@ header{
   padding: 10px;
   font-size: 16px;
   border: none;
-}
-
-#right{
-  position: absolute;
-  top: 28px;
-  left: 1100px;
 }
 
 /* botão login */
