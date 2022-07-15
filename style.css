@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;400;500;600&display=swap');
+
 *{
     background-color:#FAFAFA;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 header{
-  padding: 5px 0px 0px 20px;
+  padding: 25px 0px 0px 20px;
   height: 50px;
   width: 100%;
 }
@@ -42,6 +44,7 @@ header{
 .features {
     background-color: #FAFAFA;
     color: black;
+    font-family: Epilogue;
     padding: 5px;
     font-size: 16px;
     border: none;
@@ -51,6 +54,7 @@ header{
 .company {
     background-color: #FAFAFA;
     color: black;
+    font-family: Epilogue;
     padding: 5px;
     font-size: 16px;
     border: none;
@@ -66,8 +70,10 @@ header{
 .btncareer{
   text-decoration: none;
   color: black;
+  font-family: Epilogue;
   background-color: #FAFAFA;
   font-size: 16px;
+  font-weight: ;
   padding: 10px;
   width: 250px;
   height: 100px;
@@ -83,6 +89,7 @@ header{
   text-decoration: none;
   color: black;
   background-color: #FAFAFA;
+  font-family: Epilogue;
   font-size: 16px;
   padding: 10px;
   width: 250px;
@@ -104,6 +111,7 @@ header{
   color: black;
   background-color: #FAFAFA;
   font-size: 16px;
+  font-family: Epilogue ;
   padding: 10px;
   width: 250px;
   height: 100px;
@@ -125,6 +133,7 @@ header{
   border: 1px solid black;
   color: black;
   background-color: #FAFAFA;
+  font-family: Epilogue;
   border-radius: 15px;
   padding: 10px;
   width: 250px;
@@ -199,6 +208,7 @@ header{
   /* mostrando o conteúdo menu dropdown */
   .feature:hover .dd_features_content {display: block;}
   .company:hover .dd_company_content {display: block;}
+  
   .company:active {
     font-weight: bolder;
   }
@@ -236,7 +246,9 @@ header{
 div>p{
   text-align: justify;
   margin: 50px 0px;
-  font-size: 20px;
+  font-size: 18px;
+  color: #AEAEAE;
+  font-family: Epilogue;
 }
 
 .content{
