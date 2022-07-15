@@ -137,9 +137,9 @@ header{
 
 
 .main-content{
-  padding: 70px;
-  width: 1000px;
-  height: 450px;
+  padding: 45px;
+  width: 1100px;
+  height: 500px;
   margin: auto;
   align-items: center;
   background-color: #FAFAFA;
@@ -162,11 +162,8 @@ h1{
   font-size: 65px;
 }
 
-#img_main{
-  width: 250px;
+.img_main{
+  width: 15%;
+  height: 30%;
   display: inline-block;
-}
-
-.brand{
-  padding: 30px;
 }
