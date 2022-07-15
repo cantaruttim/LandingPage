@@ -121,9 +121,10 @@ header{
   border-radius: 10px;
   align-items: flex-end;
   text-align: right;
-  cursor: pointer;
+  text-decoration: none;
 }
 
+/*
 
 #learn{
   background-color: black;
@@ -135,14 +136,31 @@ header{
   border: 1px solid black;
 }
 
-.learn-more{
+#learn:hover{
+  background-color: #FAFAFA;
+  color: black;
+}
+
+*/
+
+
+.btnlearn-more{
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 230px;
+  padding: 15px;
+  text-align: center;
   background-color: black;
   color: white;
-  width: 110px;
-  height: 20px;
-  cursor: pointer;
 
 }
+
+.btnlearn-more:hover{
+  color: black;
+  background-color: #FAFAFA;
+}
+
 
 /* escondendo o conteúdo do menu */
   .dd_features_content {
@@ -215,7 +233,7 @@ header{
 p{
   font-size: 20px;
   padding: 0;
-  margin: 60px 0px 65px 0px;
+  margin: 25px 0px 25px 0px;
   text-align: justify;
   width: 450px;
 }
@@ -235,7 +253,6 @@ h1{
 
 .brand{
   align-items: baseline;
-  padding: 40px 0px 0px 20px;
   display: inline;
 }
 
