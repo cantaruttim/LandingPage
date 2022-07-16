@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="PT=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
     <title>My Landing Page</title>
 </head>
 
-<body>
+<body defer>
 
     <header>
         <img class="img" src="images/logo.svg">
         <nav id="menu">
             <div class="feature">
                 <nav class="menu_feature">
-                    <button class="features">Features <img id="feature" src="images/icon-arrow-down.svg"> </button>
+                    <button class="features">Features <img onclick="feature('img', 'images/icon-arrow-down.svg')"
+                            src=" images/icon-arrow-down.svg">
+                    </button>
                     <div class="dd_features_content">
                         <a href="#"> <img src="images/icon-todo.svg"> Todo List</a>
                         <a href="#"> <img src="images/icon-calendar.svg"> Calendar</a>
@@ -29,7 +30,8 @@
 
             <div class="company">
                 <nav class="menu_company">
-                    <button class="comp">Company <img id="company" src="images/icon-arrow-down.svg"> </button>
+                    <button class="comp">Company <img id="company" onclick="company()" src="images/icon-arrow-down.svg">
+                    </button>
                     <div class="dd_company_content">
                         <a href="#"> History </a>
                         <a href="#"> Our Team </a>
